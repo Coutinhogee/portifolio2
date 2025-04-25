@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Underdog&display=swap');
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    color: #f6f6f6;
+    box-sizing: border-box;
+
+}
+
+p {
+    color: white;
+    text-align: justify;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+span {
+    color: black;
+    background-color: yellow;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.teste {
+    color: black;
+    background: yellow;
+}
+
+a {
+    color: aqua;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.apresentacao-conteudo {
+    width: 615px;
+
+}
+
+.apresentacao-titulo {
+    font-size: 36px;
+    color: aqua;
+    font-weight: 400;
+}
+
+.apresentacao-paragrafo {
+    font-size: 24px;
+    text-align: justify;
+}
+
+.apresentacao-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao-links-2 {
+    background-color: #22d4fd;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5 px 0;
+    text-decoration: none;
+    color: black;
+    font-family: "Underdog", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    border: 2px solid #ffffff;
+}
+
+.apresentacao-links-2:hover {
+    background-color: white;
+    color: #88ace0;
+}
+
+.apresentacao-titulo:hover {
+    color: yellow;
+
+}
